@@ -1,0 +1,38 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+	int n;
+	cin>>n;
+	int i=1;
+	//int count=1;
+	//char ch = 'A'+j-1;
+	while(i<=n){
+		int j=1;
+		char ch = 'A'+j-1;
+		//int value=i;
+		while(j<=n){
+			//char ch = 'A';
+			cout<<ch<<" ";
+			//value--;
+			ch=ch+1;
+			j++;
+		}
+		cout<<endl;
+		i++;
+	}
+
+}
+
+/*INPUT = 3
+OUTPUT
+
+A B C 
+A B C 
+A B C 
+
+Coded by Kushal Singh
+
+i =row;
+j=column
+
+*/
