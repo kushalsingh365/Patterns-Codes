@@ -17,3 +17,17 @@ int main(){
 	}
 
 }
+
+/*INPUT = 3
+OUTPUT
+A 
+B C 
+D E F
+
+
+Coded by Kushal Singh
+
+i =row;
+j=column
+
+*/
